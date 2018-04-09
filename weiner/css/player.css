@@ -1,0 +1,45 @@
+@font-face
+{
+	font-family: "Graduate";
+	src: url(http://ae4i.org/weiner/fonts/Graduate-Regular.ttf) format("truetype");
+}
+
+.number
+{
+	opacity: 0.75;
+	color: gray;
+	font-family: Graduate;
+	font-size: 148px;
+	position: absolute;
+	left: 100px;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+	z-index: 0;
+}
+
+.first
+{
+	color: black;
+	font-family: Graduate;
+	font-size: 42px;
+	position: absolute;
+	left: 150px;
+	top: 45px;
+	margin: 0px;
+	padding: 0px;
+	z-index: 1;
+}
+
+.last
+{
+	color: black;
+	font-family: Graduate;
+	font-size: 42px;
+	position: absolute;
+	left: 150px;
+	top: 85px;
+	margin: 0px;
+	padding: 0px;
+	z-index: 1;
+}

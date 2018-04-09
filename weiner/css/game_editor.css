@@ -1,0 +1,79 @@
+.team_away
+{
+	width: 33%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: scroll;
+	background-color: gray;
+}
+
+.controls
+{
+	width: 34%;
+	position: absolute;
+	left: 33%;
+	right: 33%;
+	top: 50px;
+	overflow: hidden;
+	text-align: center;
+}
+
+#status_bar
+{
+	width: 34%;
+	position: absolute;
+	right: 33%;
+	left: 33%;
+	top: 0px;
+	background-color: green;
+	height: 50px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+#status
+{
+	margin: 15px;
+	padding: 0px;
+}
+
+.team_home
+{
+	width: 33%;
+	height: 100%;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	overflow: scroll;
+	background-color: gray;
+}
+
+#button_panel
+{
+	border: none;
+	width: 30%;
+	position: static;
+	margin: 0px auto;
+	padding: 0px auto;
+	overflow: hidden;
+	text-align: center;
+}
+
+.score_button
+{
+	height: 100px;
+	width: 100px;
+	font-size: 35px;
+}
+
+.players
+{
+	position: static;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-size: 24px;
+}
